@@ -1,0 +1,90 @@
+/*body { padding-top: 70px;  background-color: #f3f3f3;}*/
+/*body {  background-color: #f3f3f3;}*/
+textarea{ resize: none;}
+
+.loginhead{
+      background-color: #39B54A;
+      color:white;
+      font-size: 18px;
+      text-align:center;
+      padding: 4px;
+      width: 100%;
+}
+.loginbody{
+    padding: 10px;
+    height: auto;
+    width: auto;
+    overflow:hidden;
+    background-color:#ffffff;
+    border:1px solid #E0E0E0;
+    margin-top: 0px;
+}
+.buttonLogin{
+    background-color: #FFAA42;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.buttonLogin:hover{
+    background-color: #F68725;
+    font-weight: bold;
+
+    color: #FFFFFF;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.imglogin{
+  height: 100%
+}
+
+.inputLogin:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+
+.margenFila{
+  margin-top: 5px;
+}
+
+
+.div_search{
+  border:1px solid #81E3E2;
+  background-color: #FFF;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tituloMenu{
+  color: #FFFFFF;
+  font-size: 18px;
+  text-align:center;
+  font-weight: bold;
+}
+
+/* Modals */
+.modalhead{
+  background-color: #81E3E2;
+  color: #FFFFFF !important;
+  font-size: 18px;
+  text-align:center;
+  padding: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
