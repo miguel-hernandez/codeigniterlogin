@@ -14,8 +14,6 @@ class Login extends CI_Controller {
 		$this->load->library('Utils');
 	}
 
-
-
 	function validar_login(){
 		$params = $this->get_params_login($this->input);
 		$username = $params['login.username'];
@@ -58,7 +56,7 @@ class Login extends CI_Controller {
 					redirect('admin/index');
 				break;
 				case CAPACITADOR:
-					redirect('capacitador/index');
+					redirect('vendedor/index');
 				break;
 				default:
 				break;

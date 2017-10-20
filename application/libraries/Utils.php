@@ -16,8 +16,13 @@ class Utils {
      * @param string $vista      El nombre de la vista que se cargará después del header
      * @param array  $data       Arreglo con los campos que usará templates/header y $vista
      */
-    public static function carga_pagina_basica($contexto, $vista = '', $data) {
-        $contexto->load->view($vista, $data);
+    public static function carga_pagina_basica($contexto, $vista = '', $data, $logueado) {
+      if($logueado){
+        $contexto->load->view('templates/header');
+      }
+      $contexto->load->view($vista, $data);
+      $contexto->load->view('templates/footer');
+
     }// carga_pagina_basica()
 
 

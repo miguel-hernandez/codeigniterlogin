@@ -1,5 +1,4 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario extends CI_Controller {
@@ -20,7 +19,10 @@ class Usuario extends CI_Controller {
 			 $usuario_session = $this->utils->get_usuario_sesion($this);
 				$data['titulo'] = "Usuario";
 				$data['esta_logueado'] = $usuario_session['nombre']." ".$usuario_session['paterno']." ".$usuario_session['materno'];
-			 $this->load->view('usuario/index', $data);
+
+			//  $this->load->view('usuario/index', $data);
+				$data['titulo'] = 'Login';
+				$this->utils->carga_pagina_basica($this, 'usuario/index', $data, TRUE);
 		 }else{
 			 redirect('index/', 'refresh');
 		 }

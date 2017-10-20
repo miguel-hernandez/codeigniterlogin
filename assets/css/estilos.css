@@ -64,13 +64,6 @@ textarea{ resize: none;}
 
 
 
-
-
-
-
-
-
-
 .tituloMenu{
   color: #FFFFFF;
   font-size: 18px;
@@ -87,4 +80,18 @@ textarea{ resize: none;}
   padding: 4px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+
+/* FOOTER */
+footer{
+  background-color: #F3F3F3;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+
+
+  position: absolute;
+  bottom: 0;
 }

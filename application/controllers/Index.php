@@ -34,7 +34,8 @@ class Index extends CI_Controller {
 				redirect('usuario/index', 'refresh');
 			}else{
 					$data['titulo'] = 'Login';
-					$this->utils->carga_pagina_basica($this, 'login/index', $data);
+					$this->utils->carga_pagina_basica($this, 'login/index', $data, FALSE);
+					// $this->utils->carga_pagina_basica($this, 'templates/forbidden', $data);
 			}
 	 }// index()
 
