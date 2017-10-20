@@ -2,7 +2,7 @@
   Codeigniter
 </footer>
 
-<script src="<?php echo base_url('assets/jquery.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/jquery-3.2.1.min.js'); ?>"></script>
 
 <script src="<?php echo base_url('assets/jquery.validate.js'); ?>"></script>
 
@@ -18,7 +18,6 @@
      base_url = base_url+"index.php/";
 
      $("#modal_notification").modal("show");
-     console.info("Ready!");
   });
 </script>
 
