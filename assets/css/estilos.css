@@ -1,7 +1,11 @@
-/*body { padding-top: 70px;  background-color: #f3f3f3;}*/
-/*body {  background-color: #f3f3f3;}*/
+/* TAGS */
 textarea{ resize: none;}
 
+
+
+
+
+/* LOGIN */
 .loginhead{
       background-color: #39B54A;
       color:white;
@@ -43,16 +47,11 @@ textarea{ resize: none;}
 
 
 
-.margenFila{
-  margin-top: 5px;
+.margintop_10{
+  margin-top: 10px;
 }
-
-
-.div_search{
-  border:1px solid #81E3E2;
-  background-color: #FFF;
-  padding: 10px;
-  margin-bottom: 20px;
+.margintop_5{ /* for input form */
+  margin-top: 5px;
 }
 
 .uppercase{
@@ -62,16 +61,7 @@ textarea{ resize: none;}
 
 
 
-
-
-.tituloMenu{
-  color: #FFFFFF;
-  font-size: 18px;
-  text-align:center;
-  font-weight: bold;
-}
-
-/* Modals */
+/* MODALS */
 .modalhead{
   background-color: #81E3E2;
   color: #FFFFFF !important;
